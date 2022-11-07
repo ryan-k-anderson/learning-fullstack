@@ -1,0 +1,50 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0px;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+#nav a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+
+
+}
+#main{
+    background-color: black;
+    background-image: url("rocket.jpg");
+    background-size: cover;
+    height: 750px;
+}
+#main h1{
+    display: inline-block;
+    max-width: 550px;
+    font-size: 72px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    color: white;
+}
+#main h2{
+    font-size: 30px;
+    color: white;
+}
+
+#main a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+}
+
+#main h1, h2, a{
+    margin-left: 350px;
+}
