@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    background-color: #d8d9db;
+}
+
+#main{
+height: 100%;
+width: 1700px;
+/* border: 1px solid red; */
+margin: 0 auto;
+margin-left: 100px;
+display: inline-block;
+background-color: #fcfdfe;
+font-family: '96 Sans',Arial, sans-serif;
+}
+
+.info img{
+    height: 20px;
+    width: 168px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 75px;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.info a:hover{
+    border-bottom: 2px solid black;
+}
+
+#welcome{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid blue; */
+    padding: 10px;
+    text-align: center;
+}
+
+#welcome h2{
+    font-weight: lighter;
+}
+
+#welcome h1{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 30px;
+}
+#grid .item{
+    border: 2px solid #d1e2e5;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0.5px 2px rgba(209, 226,229, 1);
+    transition: box-shadow 0.3s,
+                background-color 0.3s;
+}
+
+#grid .item:hover{
+    background-color: #d1e2e5;
+    box-shadow: none;
+}
+
+#grid .item .button{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#grid .item p{
+    color: #707070;
+}
