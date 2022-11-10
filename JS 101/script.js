@@ -112,5 +112,86 @@ console.log(person['age']);
 
 
 //STRING METHODS
-const course = 'JavaScript 101: Coding for beginners'
-console.log = (course.search("Coding"))
+const course = 'JavaScript 101: Coding for beginners';
+console.log = (course.search("Coding"));
+//.search()
+//slice()
+//.substr()
+//.replace()
+//.toUpperCase()
+//.toLowerCase()
+//.trim()
+//.split()
+//.length
+
+
+
+
+//DEMYSTIFYING DATA TYPES
+typeof(course);
+arr = [];
+typeof(arr);
+//can use typeof to determine what data type you are dealing with
+
+
+
+//CASTING DATA TYPES
+age = '31';
+//To cast the string '31' into a number data type use Number()
+age = Number(age);
+//To cast back to a string use 'String()'
+age = String(age);
+
+
+
+//ConCat
+const someName = 'Jacob';
+let age = 26;
+console.log(someName + " is my name, " + age + " is my age.");
+//Old school concatination
+console.log(`My name is ${someName}. And my age is ${age}`);
+//Modern Template Literal
+
+
+
+//NUMBERS
+num = 123;
+num2 = '456.7';
+num2 = Number(num2);
+sum = num + num2;
+console.log(sum);
+
+
+
+//ARRAYS
+const lst = ['one', 2, 3.0, 'four', [], {}];
+lst.push('New Item Here');
+//.push() pushes a new item at the END of an array
+console.log(lst);
+//Make an array by 'variable name = []
+const newItem = lst.pop();
+//.pop() takes the last item and pops it out of the array
+console.log(newItem);
+console.log(lst);
+
+
+
+//ARRAY ITERATION
+// for(something; as long as something else; after each iteration){
+
+// }
+
+const arr = ['Zero', 'One', 'Two', 'Three']
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i])
+    //arr[i] is taking the array and logging the value at the index at i
+    //example arr[0](index 0) = 'Zero' arr[2] = 'Two'
+}
+
+arr.forEach(num => {
+    console.log(num)
+})
+
+
+
+//SELECTING MULTIPLE NODES
