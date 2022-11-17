@@ -5,6 +5,7 @@ let varName = "Thing";
 //CamelCasing first word is lowercase and all proceeding words the first letter is capitalized 
 const NAME = "Ryan";
 console.log(NAME);
+console.log(varName)
 //All uppercase we know that this is a constant variable
 //CamelCasing we can identify that it is a dynamic variable
 
